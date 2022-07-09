@@ -1,6 +1,6 @@
 @charset "utf-8";
 :root{
-  --font-family: 'Inter', sans-serif;
+  --font-family: 'Ubuntu', sans-serif;
   --font-size: 16px;
   --font-subtitle: 1.25rem;
   --font-smalltext: 0.875rem;
@@ -99,3 +99,40 @@ hr {
 .clearfix::after {
     clear: both;
 }
+
+/* TheHeader */
+.logo svg{
+  fill: var(--color-gray-900);
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav.menu ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header ul.contacts{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/* TheHeader */
+/*HomeBanner*/
+.home-banner{
+  background-color: #050C38;
+  color: var(--color-white);
+  min-height: 100vh;
+}
+.home-banner .logo svg{
+  fill: var(--color-gray-50);
+}
+/*HomeBanner*/

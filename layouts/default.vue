@@ -1,3 +1,5 @@
 <template>
-    <div>2</div>
+    <section>
+        <HomeBanner />
+    </section>
 </template>
