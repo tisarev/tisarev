@@ -1,9 +1,10 @@
 <template>
-  <div>1</div>
+  <div class="page">
+    <div class="wrapper">
+      <Nuxt />
+    </div>
+  </div>
+  
 </template>
-
 <script>
-export default {
-  name: 'IndexPage'
-}
 </script>
