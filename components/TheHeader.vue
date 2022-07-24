@@ -6,9 +6,10 @@
             </a>
             <nav class="menu">
                 <ul>
-                    <li>Вводная</li>
-                    <li>Портфолио</li>
-                    <li>Услуги</li>
+                    <li><a href="#home-design">Дизайн сайта</a></li>
+                    <li><a href="#home-frontend">Frontend разработка</a></li>
+                    <li><a href="#home-presentation">Презентации</a></li>
+                    <li><a href="#home-price">Цены и сроки</a></li>
                 </ul>
             </nav>
         </div>
