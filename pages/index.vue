@@ -4,7 +4,7 @@
         <h2>Многолетний опыт работы помогает находить лучшие решения в каждом конкретном случае, любой проект — это возможность повысить собственный уровень.</h2>
         <div class="services-item" id="home-design">
             <div class="services-item__text">
-                <div class="services-item__text-icon"></div>
+                <div class="services-item__text-icon">1</div>
                 <div class="services-item__text-desc">
                     <h3>Дизайн сайта</h3>
                     <p>Веб-дизайн должен быть понятным. <br>Делаю броские и запоминающиеся сайты. Самое главное, объясняю ваш продукт широкой аудитории простым языком.</p>
@@ -32,7 +32,7 @@
         </div>
         <div class="services-item" id="home-frontend">
             <div class="services-item__text">
-                <div class="services-item__text-icon"></div>
+                <div class="services-item__text-icon">2</div>
                 <div class="services-item__text-desc">
                     <h3>Frontend разработка</h3>
                     <p>Разработка кросс-браузерных сайтов и приложений под разные устройства с использованием HTML5, CSS3, современных фреймворков и библиотек JavaScript таких как VUE и NUXT.</p>
@@ -60,7 +60,7 @@
         </div>
         <div class="services-item" id="home-presentation">
             <div class="services-item__text">
-                <div class="services-item__text-icon"></div>
+                <div class="services-item__text-icon">3</div>
                 <div class="services-item__text-desc">
                     <h3>Презентации</h3>
                     <p>Презентация должна ёмко и убедительно донести ценности и пользу для потребителя.
@@ -81,6 +81,13 @@
             </div>
             <div class="services-item__img">1</div>
         </div> -->
+        <div class="pricing" id="pricing">
+            <div class="pricing-text">
+                <h3>Ценообразование</h3>
+                <p>Проекты оцениваются
+индивидуально, потому что для наших клиентов типовых задач не бывает.</p>
+            </div>
+        </div>
     </section>
 </div>
 </template>

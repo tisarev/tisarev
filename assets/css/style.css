@@ -280,6 +280,11 @@ a.telegram{
   top: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  color: var(--color-gray-400);
 }
 .services-item__img img{
   object-fit: cover;
@@ -294,6 +299,12 @@ a.telegram{
 }
 .services-item:nth-child(2n) .services-item__img{
   order: -1;
+}
+.pricing{
+  padding: 80px;
+  border-radius: var(--br);
+  background-color:#050C38;
+  color: var(--color-white);
 }
 /*services*/
 
